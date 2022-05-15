@@ -1,0 +1,7 @@
+name: seismolearnpy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Dev dependencies (general)
+  - build
