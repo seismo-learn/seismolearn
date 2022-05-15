@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seismolearnpy"
+description = "A Python package for learning seismology."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT License"}
+authors = [{name = "seismo-learn"}]
+maintainers = [{name = "seismo-learn"}]
+keywords = []
+dependencies = []
+dynamic = ["version"]
+
+[tool.setuptools_scm]
+local_scheme = "node-and-date"
+fallback_version = "unknown"
