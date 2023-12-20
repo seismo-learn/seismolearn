@@ -10,7 +10,7 @@ help:
 	@echo "  distclean clean up build and generated files, including project metadata files"
 
 install:
-	pip install --no-deps -e .
+	python -m pip install --no-deps -e .
 
 package:
 	python -m build --sdist --wheel
